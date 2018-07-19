@@ -1,4 +1,6 @@
-#SSH Key generator for github. Fork and edit for your own info if you like.
+# SSH Key generator for github.
+
+First run the following commands to generate your key:
 
 ```bash
 #!/usr/bin/bash
@@ -8,8 +10,10 @@ chmod +x generate_ssh.sh
 ./generate_ssh.sh
 ```
 
-
 Then follow this [link to github settings to add the key](https://github.com/settings/keys)
 
+```C++
+fork("this repo and edit for your own info if you like.");
 thanks();
 return 0;
+```
