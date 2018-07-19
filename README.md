@@ -7,8 +7,10 @@ First run the following commands to generate your key:
 
 wget https://raw.githubusercontent.com/daher-alfawares/ssh_key/master/generate_ssh.sh
 chmod +x generate_ssh.sh
-./generate_ssh.sh
+vim generate_ssh.sh
 ```
+
+Edit the file then simply `./generate_ssh.sh`
 
 Then follow this [link to github settings to add the key](https://github.com/settings/keys)
 
