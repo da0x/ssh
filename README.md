@@ -13,7 +13,7 @@ chmod +x generate_ssh.sh
 Then follow this [link to github settings to add the key](https://github.com/settings/keys)
 
 ```C++
-fork("this repo and edit for your own info if you like.");
+fork("this repo and add your own info.");
 thanks();
 return 0;
 ```
