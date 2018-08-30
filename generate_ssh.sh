@@ -14,3 +14,7 @@ ssh-add ~/.ssh/id_rsa
 echo Here\'s the SSH key:
 cat ~/.ssh/id_rsa.pub
 
+echo .
+echo .
+echo Visit this URL to add your key: https://github.com/settings/keys
+echo .
