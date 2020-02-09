@@ -2,6 +2,15 @@
 
 First run the following commands to generate your key:
 
+## Linux
+```
+wget https://raw.githubusercontent.com/daher-alfawares/ssh_key/master/generate_ssh.sh
+chmod +x generate_ssh.sh
+./generate_ssh.sh
+cat ~/.ssh/id_rsa.pub
+```
+
+## Mac
 ```bash
 #!/usr/bin/bash
 
