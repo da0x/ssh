@@ -4,7 +4,7 @@ First run the following commands to generate your key:
 
 ## Linux
 ```
-wget https://raw.githubusercontent.com/daher-alfawares/ssh_key/master/generate_ssh.sh
+wget https://raw.githubusercontent.com/da0x/ssh/master/generate_ssh.sh
 chmod +x generate_ssh.sh
 ./generate_ssh.sh
 cat ~/.ssh/id_rsa.pub
@@ -14,7 +14,7 @@ cat ~/.ssh/id_rsa.pub
 ```bash
 #!/usr/bin/bash
 
-wget https://raw.githubusercontent.com/daher-alfawares/ssh_key/master/generate_ssh.sh
+wget https://raw.githubusercontent.com/da0x/ssh/master/generate_ssh.sh
 chmod +x generate_ssh.sh
 ./generate_ssh.sh
 pbcopy < ~/.ssh/id_rsa.pub
