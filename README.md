@@ -14,10 +14,11 @@ cat ~/.ssh/id_rsa.pub
 ```bash
 #!/usr/bin/bash
 
-wget https://raw.githubusercontent.com/da0x/ssh/master/generate_ssh.sh
+curl -o generate_ssh.sh https://raw.githubusercontent.com/da0x/ssh/master/generate_ssh.sh
 chmod +x generate_ssh.sh
 ./generate_ssh.sh
 pbcopy < ~/.ssh/id_rsa.pub
+open https://github.com/settings/keys
 ```
 
 Edit the file then simply `./generate_ssh.sh`
